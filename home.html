@@ -1,0 +1,675 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>OffiLux</title>
+    <link rel="stylesheet" href="styles_ly.css">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="bootstrap-icons-1.8.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+
+</head>
+<body>
+  <div class="main">
+    <header class="header">
+    <div class="first">
+      <p><strong><small>FREESHIP Thành phố Hồ Chí Minh - Hà Nội - Đà Nẵng </small</strong></p>
+    </div>
+
+    <div class="search">
+      <div class="header__logo">
+        <a href="home.html">
+          <img src="images/offiluxlogo1.png" alt="logo">
+        </a>
+      </div>
+
+      <div class="header__search">
+        <h2 style="text-align: center;">OFFILUX - NÂNG TẦM NƠI LÀM VIỆC CỦA BẠN</h2>
+    </div>
+      
+
+      <nav class="header__icon">
+          <ul class="header__list">
+              <li class="header__items"><a href="modal.html">Đăng nhập/Đăng kí</a></li>
+              <li class="header__items"><a href="gio_hang.html">Giỏ hàng</a></li>
+              <li class="header__items"><a href="yeu_thich.html">Yêu thích</a></li>
+          </ul>
+      </nav>
+    </div>
+
+    
+</div>
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="home.html">OffiLux</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link dropdown-toggle" role="button" data-bs-toggle="dropdown" aria-expanded="false" href="offilux.html">
+                <a href="offilux.html" style="color: #0C543C;">Bấm vào đây để xem sản phẩm của bạn</a>
+              </a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#">Bàn giám đốc</a></li>
+                <li><a class="dropdown-item" href="#">Ghế giảm đốc</a></li>
+                <li><a class="dropdown-item" href="#">Bàn ghế phòng họp</a></li>
+                <li><a class="dropdown-item" href="#">Bàn ghế nhân viên</a></li>
+                <li><a class="dropdown-item" href="#">Ghế tiếp khách</a></li>
+                <li><a class="dropdown-item" href="#">Tủ tài liệu</a></li>            
+              </ul>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Tin tức</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Dự án</a>
+            </li>
+
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Dịch vụ
+              </a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#">Giao hàng</a></li>
+                <li><a class="dropdown-item" href="#">Lắp đặt</a></li>      
+              </ul>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Liên hệ</a>
+            </li>        
+          </ul>
+          <form class="d-flex" role="search">
+            <input class="form-control me-2" type="search" placeholder="Nhập sản phẩm" aria-label="Tìm kiếm">
+            <button class="btn btn-outline-success" type="submit">Tìm</button>
+          </form>
+        </div>
+      </div>
+    </nav>
+  </header>
+    
+      <!--banner-->
+      <div id="carouselExampleFade" class="carousel slide carousel-fade">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="images/banner2.jpg" class="d-block w-100" alt="..." height="500px">
+          </div>
+          <div class="carousel-item">
+            <img src="images/banner1.jpg" class="d-block w-100" alt="..." height="500px">
+          </div>
+          <div class="carousel-item">
+            <img src="images/banner3.jpg" class="d-block w-100" alt="..." height="500px">
+          </div>
+          <div class="carousel-item">
+            <img src="images/banner4.png" class="d-block w-100" alt="..." height="500px">
+          </div>
+          <div class="carousel-item">
+            <img src="images/banner5.png" class="d-block w-100" alt="..." height="500px">
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+  <!--Trang chủ- Danh mục - sản Phẩm-->
+  <div class="container my-5">
+    <nav aria-label="breadcrumb">
+      <ol class="breadcrumb p-3 bg-body-tertiary rounded-3">
+        <li class="breadcrumb-item"><a href="home.html" style="color: #0C543C;"><span style="color:#0C543C; "><strong><h2 style="color:#0C543C;">Trang chủ</h2></strong></span></a></li>
+      </ol>
+    </nav>
+  </div>
+<!--content-->
+<div class="container">
+    <div class="headline">
+        <h3 style="color:wheat">Không gian làm việc</h3>
+    </div>
+    <div class= "row">
+          
+        <div class =" col-sm-4 images1">
+           <img src="https://images.pexels.com/photos/37347/office-sitting-room-executive-sitting.jpg?auto=compress&cs=tinysrgb&w=800">
+        </div>
+        <div class ="col-sm-4  images2">
+            <img src="https://images.pexels.com/photos/159839/office-home-house-desk-159839.jpeg?auto=compress&cs=tinysrgb&w=800
+            ">
+           
+        </div>
+  
+        <!-- d-sm-none: display sm none -->
+        <div class ="w-100 d-sm-none"></div>
+  
+        <div class ="col-sm-4  images3">
+            <img src="https://images.pexels.com/photos/221537/pexels-photo-221537.jpeg?auto=compress&cs=tinysrgb&w=800">
+           
+        </div>
+        <div class ="col-sm-6  images4">
+            <img src="https://images.pexels.com/photos/6614838/pexels-photo-6614838.jpeg?auto=compress&cs=tinysrgb&w=800">
+           
+        </div>
+        <div class ="col-sm-6 images5">
+            <img src="https://images.pexels.com/photos/37347/office-sitting-room-executive-sitting.jpg?auto=compress&cs=tinysrgb&w=800">
+           
+        </div>
+     </div>
+</div>
+
+<!--sản phẩm của offi-->
+<div class="container">
+  <div class="headline">
+     <hr> 
+     <a href="offilux.html"><h3 style="color:wheat">Sản phẩm của OFFILUX</h3></a>
+  </div>
+  <ul class="product">
+      
+      <li>
+          <div class="product-item"></div>
+              <div class="product-top">
+                 
+                  <img src="https://product.hstatic.net/200000065946/product/pro_trang_noi_that_moho_ke_de_sach_9_34a0af0251ae4894ba717dbdfdfe88a5_master.jpg" >
+                 
+
+              </div>
+              <div class="product-info">
+                  <a href="" class="product-cat">Kệ gỗ</a>
+                  <div class="product-price">4.657.000</div>
+
+              </div>
+      </li>
+      <li>
+          <div class="product-item"></div>
+              <div class="product-top">
+                 <a href="" class="proct-thum">
+                  <img src="https://product.hstatic.net/200000065946/product/pro_mau_tu_nhien_noi_that_moho_ban_hoc_lam_viec_go_fyn_3_52d2ad03f0974239bfd85fa28c1e405f_master.jpg">
+                 </a>
+
+              </div>
+              <div class="product-info">
+                  <a href="" class="product-cat">Bàn làm việc</a>
+                  <div class="product-price"> 5.500.000</div>
+
+              </div>
+      </li>
+      <li>
+          <div class="product-item"></div>
+              <div class="product-top">
+                 <a href="" class="proct-thum">
+                  <img src="https://product.hstatic.net/200000065946/product/pro_trang_ban_may_tinh_go_moho_works_15_1acf046e7a7f4515afe3e4a6d3426ad8_master.jpg">
+                 </a>
+
+              </div>
+              <div class="product-info">
+                  <a href="" class="product-cat">Bàn ghế văn phòng</a>
+                  <div class="product-price">2.450.000</div>
+
+              </div>
+      </li>
+      <li>
+          <div class="product-item"></div>
+              <div class="product-top">
+                 <a href="" class="proct-thum">
+                  <img src="https://product.hstatic.net/200000065946/product/pro_den_noi_that_moho_ghe_van_phong_jefe_2_722934d858f84c719ffb0a8755f43d52_master.jpg">
+                 </a>
+
+              </div>
+              <div class="product-info">
+                  <a href="" class="product-cat">Ghế xoay</a>
+                  <div class="product-price">980.000</div>
+
+              </div>
+      </li>
+      
+      <!--/*<li>
+          <div class="product-item image 8"></div>
+              <div class="product-top">
+                 <a href="" class="proct-thum">
+                  <img src="image/ke7.jpg" >
+                 </a>
+
+              </div>
+              <div class="product-info">
+                  <a href="" class="product-cat">Kệ gỗ sang trọng nâng tầm không gian</a>
+                  <div class="product-price">Với lối thiết kế hiện đại, mẫu kệ phù hợp với mọi gian phòng</div>
+
+              </div>
+      </li>-->
+      
+  </ul>
+
+</div>
+<!--tin tức-->
+<div class="container">
+    <div class="headline">
+       <hr> <h3 style="color:wheat">Tin tức mới nhất</h3>
+    </div>
+    <ul class="product">
+        
+        <li>
+            <div class="product-item"></div>
+                <div class="product-top">
+                   
+                    <img src="https://noithatdangkhoa.com/wp-content/uploads/2021/06/ban-lam-viec-o-ha-giang-2.jpg">
+                   
+
+                </div>
+                <div class="product-info">
+                    <a href="" class="product-cat">Nội thất thời thượng</a>
+                    <div class="product-price">Góp phần nâng tầm không gian làm việc với nội thất bàn ghế sang trong, đơn giản và nhã nhặn</div>
+
+                </div>
+        </li>
+        <li>
+            <div class="product-item"></div>
+                <div class="product-top">
+                   <a href="" class="proct-thum">
+                    <img src="https://product.hstatic.net/200000065946/product/pro_nau_noi_that_moho_tu_ke_tivi_oslo_1m4_1_eade81ca21b24c87a29c79431c387ed2_master.jpg">
+                   </a>
+
+                </div>
+                <div class="product-info">
+                    <a href="" class="product-cat">Kệ tủ hot 2023</a>
+                    <div class="product-price">Với thiết kế tinh giản, mẫu ghế giúp bạn thoải mái trong những giờ làm việc căng thẳng</div>
+
+                </div>
+        </li>
+        <li>
+            <div class="product-item"></div>
+                <div class="product-top">
+                   <a href="" class="proct-thum">
+                    <img src="https://product.hstatic.net/200000065946/product/pro_nau_noi_that_moho_tu_giay_vline_601_1_3c16cf25f44b4e8b806ea944f6208851_master.jpg">
+                   </a>
+
+                </div>
+                <div class="product-info">
+                    <a href="" class="product-cat">Phong cách bàn Nhật tối giản</a>
+                    <div class="product-price">Với chất liệu hoàn toàn bằng gỗ cùng gang màu tươi sáng của nội thất sẽ làm hài hòa không gian văn phòng của bạn</div>
+
+                </div>
+        </li>
+        <li>
+            <div class="product-item"></div>
+                <div class="product-top">
+                   <a href="" class="proct-thum">
+                    <img src="https://product.hstatic.net/200000065946/product/pro_mau_tu_nhien_noi_that_moho_ghe_bang_vline_1_4397fc25ea9a4bdc96761186e1c88adc_master.jpg">
+                   </a>
+
+                </div>
+                <div class="product-info">
+                    <a href="" class="product-cat">Thiết kế sang trọng thời thượng</a>
+                    <div class="product-price">Không gian làm việc đẳng cấp với mẫu nội thất tối giản, sang trọng</div>
+
+                </div>
+        <!--từ đây-->
+        <li>
+          <div class="product-item"></div>
+              <div class="product-top">
+                 
+                  <img src="https://product.hstatic.net/200000065946/product/pro_xam_noi_that_moho_ban_lam_viec_marcell_5_fe163ca10d30498aaa48889b5dd64c23_master.jpg">
+                 
+
+              </div>
+              <div class="product-info">
+                  <a href="" class="product-cat">Mẫu bàn làm việc hot 2023</a>
+                  <div class="product-price">Bàn làm việc là thứ không thể thiếu ở mỗi văn phòng, cùng OFFILUX tìm hiểu về các mẫu bàn hot nhất hiện nay nhé!</div>
+              </div>
+              <li>
+                <div class="product-item"></div>
+                    <div class="product-top">
+                       <a href="" class="proct-thum">
+                        <img src="https://product.hstatic.net/200000065946/product/pro_mau_tu_nhien_ban_lam_viec_go_co_ke_vline_5_060b7838dfe1480a93f886abaf067bc5_master.jpg">
+                       </a>
+
+                    </div>
+                    <div class="product-info">
+                        <a href="" class="product-cat">Dự án mới</a>
+                        <div class="product-price">Mỗi dự án của OFFILUX đều mong khách hàng vui vẻ và hài lòng với dịch vụ</div>
+
+                    </div>
+            </li>
+            <li>
+              <div class="product-item"></div>
+                  <div class="product-top">
+                     <a href="" class="proct-thum">
+                      <img src="https://product.hstatic.net/200000065946/product/pro_mau_tu_nhien_noi_that_moho_tu_giay_oslo_901_4_aa6deab03e374e7c8417afa33c8d70ec_master.jpg">
+                     </a>
+
+                  </div>
+                  <div class="product-info">
+                      <a href="" class="product-cat">Tủ đựng đa năng</a>
+                      <div class="product-price">Trong suốt thời gian hoạt động OFFILUX đã cố gắng hiểu được tâm lý Khách, từ đó mang đến những sản phầm tuyệt vời</div>
+
+                  </div>
+          </li>
+              <li>
+                <div class="product-item"></div>
+                    <div class="product-top">
+                       
+                        <img src="https://product.hstatic.net/200000065946/product/pro_nau_noi_that_moho_ban_tra_sofa_go_hobro_7_9766a2a8c7ad4e848b65f91994b39f65_master.jpg">
+                          
+                    </div>
+                    <div class="product-info">
+                        <a href="" class="product-cat">Bàn tiếp khách sang trọng</a>
+                        <div class="product-price">OFFILUX luôn muốn mang đến cho bạn những sản phẩm mới nhất và sang trọng nhất!!!</div>
+
+                    </div>
+            </li>
+      </li>
+        </li>
+        
+        <!--/*<li>
+            <div class="product-item image 8"></div>
+                <div class="product-top">
+                   <a href="" class="proct-thum">
+                    <img src="image/ke7.jpg" >
+                   </a>
+
+                </div>
+                <div class="product-info">
+                    <a href="" class="product-cat">Kệ gỗ sang trọng nâng tầm không gian</a>
+                    <div class="product-price">Với lối thiết kế hiện đại, mẫu kệ phù hợp với mọi gian phòng</div>
+
+                </div>
+        </li>-->
+        
+    </ul>
+
+</div>
+
+
+<div class="container">
+    <div class="headline">
+       <hr> 
+       <a href="offilux.html"><h3 style="color:wheat">Sản phẩm được yêu thích</h3></a><div class="container">
+        <div class="row"> 
+          <div class="col-6 col-xl-3 mt-4"><div class="card">
+            <a href="https://moho.com.vn/products/giuong-ngu-go-tram-moho-vline-601-mau-nau-nhieu-kich-thuoc">           
+               <img src="https://product.hstatic.net/200000065946/product/pro_mau_tu_nhien_noi_that_moho_tu_ke_sach_oslo_1_b95178561732462186e05fcfb42a8b4a_master.jpg" class="card-img-top" alt="bàn làm việc">
+            </a>
+            <div class="card-body">
+              <a href="https://moho.com.vn/products/giuong-ngu-go-tram-moho-vline-601-mau-nau-nhieu-kich-thuoc" style="text-decoration:none;"><h5 class="card-title" style="color:#0C543C;"> Kệ Gỗ – Kệ Sách OFFILUX OSLO 901</h5></a>
+            </div>
+            <div class="box-pro-prices">
+              <p class="pro-price highlight">
+                
+                <span>1,290,000₫</span>
+                
+                <span class="pro-price-del">
+                  <del class="compare-price">
+                    1,590,000₫
+                  </del>
+                </span>
+              </p>
+            </div>
+          </div></div>
+          <div class="col-6 col-xl-3 mt-4"><div class="card">
+            <a href="trang_chi_tiet1.html">
+              <img src="https://product.hstatic.net/200000065946/product/pro_nau_noi_that_moho_ban_lam_viec_vline_601_2_a659f8ee06f94436bd3d1132012cb13b_master.jpg" alt="tu" class="card-img-top">
+            </a>
+            <div class="card-body">
+              <a href="trang_chi_tiet1.html"  style="text-decoration:none;">
+                <h5 class="card-title" style="color:#0C543C;"> Bàn Máy Tính Gỗ OFFILUX WORKS 702</h5>
+              </a>
+            </div><div class="box-pro-prices">
+              <p class="pro-price highlight">
+                
+                <span>1,290,000₫</span>
+                
+                <span class="pro-price-del">
+                  <del class="compare-price">
+                    1,590,000₫
+                  </del>
+                </span>
+                
+                
+              </p>
+            </div>
+          </div></div>
+          <div class="col-6 col-xl-3 mt-4"><div class="card">
+            <a href="trangchitiet2.html">
+              <img src="https://product.hstatic.net/200000065946/product/pro_trang_noi_that_moho_ke_de_sach_tu_khoa_12_5543b86c78264349b75215f5d86b11df_master.jpg" alt="tu" class="card-img-top">
+            </a>
+            <div class="card-body">
+              <a href="trangchitiet2.html"  style="text-decoration:none;">
+                <h5 class="card-title" style="color:#0C543C;">Hộc Tủ 3 Ngăn Lưu Trữ Tài Liệu OFFILUX WORKS 201</h5>
+              </a>
+            </div>
+            <div class="box-pro-prices">
+              <p class="pro-price highlight">
+                
+                <span>1,290,000₫</span>
+                
+                <span class="pro-price-del">
+                  <del class="compare-price">
+                    1,590,000₫
+                  </del>
+                </span>
+                
+                
+              </p>
+            </div>
+          </div></div>
+          <div class="col-6 col-xl-3 mt-4"><div class="card">
+            <a href="https://moho.com.vn/products/dong-ho-treo-tuong">
+              <img src="https://product.hstatic.net/200000065946/product/img_8981_f64e30ef8c2843ac9a52acdcf60d720f_master.png" alt="tu" class="card-img-top">
+            </a>
+            <div class="card-body">
+              <a href="https://moho.com.vn/products/dong-ho-treo-tuong"  style="text-decoration:none;">
+                <h5 class="card-title" style="color:#0C543C;">Đồng Hồ Treo Tường</h5>
+              </a>
+            </div>
+            <div class="box-pro-prices">
+              <p class="pro-price highlight">
+                
+                <span>1,290,000₫</span>
+                
+                <span class="pro-price-del">
+                  <del class="compare-price">
+                    1,590,000₫
+                  </del>
+                </span>
+                
+                
+              </p>
+            </div>
+          </div></div>
+         
+        
+          
+          <div class="col-6 col-xl-3 mt-4"><div class="card">
+            <a href="https://moho.com.vn/products/ban-lam-viec-go-moho-fyn-601-mau-nau">
+              <img src="https://product.hstatic.net/200000065946/product/pro_nau_noi_that_moho_ban_lam_viec_go_co_ke_vline_1_55ef98f1571b43268e644b19c4c48721_master.jpg" alt="tu" class="card-img-top">
+            </a>
+            <div class="card-body">
+              <a href="trangchitiet3.html"  style="text-decoration:none;">
+                <h5 class="card-title" style="color:#0C543C;">Bàn Làm Việc Gỗ OFFILUX FYN 601 Màu Nâu</h5>
+
+              </a>
+            </div><div class="box-pro-prices">
+              <p class="pro-price highlight">
+                
+                <span>1,290,000₫</span>
+                
+                <span class="pro-price-del">
+                  <del class="compare-price">
+                    1,590,000₫
+                  </del>
+                </span>
+                
+                
+              </p>
+            </div>
+          </div></div>
+          <div class="col-6 col-xl-3 mt-4"><div class="card">
+            <a href="https://moho.com.vn/products/ban-lam-viec-go-soi-moho-vline-601">
+              <img src="https://product.hstatic.net/200000065946/product/pro_mau_tu_nhien_ban_lam_viec_go_co_ke_vline_5_060b7838dfe1480a93f886abaf067bc5_master.jpg" alt="tu" class="card-img-top">
+            </a>
+            <div class="card-body">
+              <a href="https://moho.com.vn/products/ban-lam-viec-go-soi-moho-vline-601"  style="text-decoration:none;">
+                <h5 class="card-title" style="color:#0C543C;">Bàn Làm Việc Gỗ OFFILUX VLINE 601 Màu Tự Nhiên</h5>
+              </a>
+            </div><div class="box-pro-prices">
+              <p class="pro-price highlight">
+                
+                <span>1,290,000₫</span>
+                
+                <span class="pro-price-del">
+                  <del class="compare-price">
+                    1,590,000₫
+                  </del>
+                </span>
+                
+                
+              </p>
+            </div>
+          </div></div>
+
+
+
+
+        </div>
+       
+       </div>
+    </div>
+    
+
+</div>
+   <!--Banner dịch vụ-->
+   <br>
+   <br>
+   <br>
+   <div class="wrapper-home-banner-servce">
+     <div class="container">
+       <br>
+       <div class="flex_content services-pd site-animation">
+         
+        <div class="row">
+         <div class="col-3">
+           <div class="services">
+             <div class="img-outer">
+               <div class="service-img fade-box">
+                 <img width="50" height="50" src="//theme.hstatic.net/200000065946/1001128819/14/vice_item_1_thumb.png?v=205" alt="Giao Hàng &amp; Lắp Đặt">
+               </div>
+             </div>
+             <div class="text">
+               <div class="title">Giao Hàng &amp; Lắp Đặt</div>
+               <div class="desc">Miễn Phí</div>
+             </div>
+           </div>
+         </div>
+         <div class="col-3">
+           <div class="services">
+             <div class="img-outer">
+               <div class="service-img fade-box">
+                 <img width="50" height="50" src="//theme.hstatic.net/200000065946/1001128819/14/vice_item_2_thumb.png?v=205" alt="Đổi Trả 1 - 1">
+               </div>
+             </div>
+             <div class="text">
+               <div class="title">Đổi Trả 1 - 1</div>
+               <div class="desc">Miễn Phí</div>
+             </div>
+           </div>
+         </div>
+         <div class="col-3">
+           <div class="services">
+             <div class="img-outer">
+               <div class="service-img fade-box">
+                 <img width="50" height="50" src="//theme.hstatic.net/200000065946/1001128819/14/vice_item_3_thumb.png?v=205" alt="Bảo Hành 2 Năm">
+               </div>
+             </div>
+             <div class="text">
+               <div class="title">Bảo Hành 2 Năm</div>
+               <div class="desc">Miễn Phí</div>
+             </div>
+           </div>
+         </div>
+         <div class="col-3">
+           <div class="services">
+             <div class="img-outer">
+               <div class="service-img fade-box">
+                 <img width="50" height="50" src="//theme.hstatic.net/200000065946/1001128819/14/vice_item_4_thumb.png?v=205" alt="Tư Vấn Thiết Kế">
+               </div>
+             </div>
+             <div class="text">
+               <div class="title">Tư Vấn Thiết Kế</div>
+               <div class="desc">Miễn Phí</div>
+             </div>
+           </div>
+         </div>
+         
+        </div> 
+         
+       </div>
+     </div>
+   </div>
+   <!--Banner-->
+   <br>
+   <br>
+   <br>
+   <br>
+   <br>
+   <div class="collection-desc">
+     <div class="container">
+       <div class="collections-description">							
+         <div class="description-content expandable-toggle opened">    
+           <div class="description-productdetail" style="overflow: hidden; height: 220px; text-align: center; margin: 30px;">
+             Nội Thất OFFILUX thân thiện môi trường, an toàn sức khỏe, chất lượng quốc tế với đa dạng đồ nội thất hiện đại cho phòng làm việc và văn phòng.
+           </div>
+           <div class="description-btn">
+             <button class="expandable-content_toggle js_expandable_content d-none btn-viewmore">
+               <span class="expandable-content_toggle-icon"></span>
+               <span class="expandable-content_toggle-text">Xem thêm nội dung</span>
+             </button>
+           </div>
+         </div>
+       </div>
+     </div>
+   </div>
+      <!--footeer-->
+      <footer class="footer">
+       <div class="grid">
+          <div class="grid__row">
+              <div class="grid_column">
+                  <h5 class="footer_heading">Nội thất offilux</h5>
+                  <p style="text-align: justify">Nội Thất OFFILUX là thương hiệu đến từ Savimex với gần 40 năm kinh nghiệm trong việc sản xuất và xuất khẩu nội thất đạt chuẩn quốc tế.</p>
+              </div>
+              <div class="grid_column">
+                  <h5 class="footer_heading">Dịch vụ</h5>
+                  <ul style="text-align: left; list-style: none; ">
+                      <li><a href="chinh_sach_ban_hang.html" style="text-decoration: none;color: white;">Chính sách bán hàng</a></li>
+                      <li><a href="Chinh_sach_giao_hang.html"style="text-decoration: none;color: white">Chính Sách Giao Hàng & Lắp Đặt</a></li>
+                      <li><a href="Chinh_sach_doi_tra.html"style="text-decoration: none;color: white">Chính Sách Đổi Trả</a></li>
+                      <li><a href="Chinh_sach_bao_hanh_bao_tri.html"style="text-decoration: none;color: white">Chính Sách Bảo Hành & Bảo Trì</a></li>
+                      <li><a href="Khach_hang_than_thiet.html"style="text-decoration: none;color: white">Khách Hàng Thân Thiết</a></li>
+                      
+                  </ul>
+              </div>
+              <div class="grid_column">
+                  <h5 class="footer_heading">Thông tin liên hệ</h5>
+                  <p style="text-align: left;">Địa chỉ: Chùa Bộc, Đống Đa, Hà Nội</p>
+                  <p style="text-align: left;">SĐT: 0123456789</p>
+                  <p style="text-align: left;">Email: offilux@gmail.com</p>
+              </div>
+              <div class="grid_column">
+                  <h5 class="footer_heading">Fanpage</h5>
+                  <a href="home.html" style="text-decoration: none; color: aliceblue;">
+                   <p>Website: www.offilux.com</p>
+                 </a>
+              </div>
+          </div>
+          
+      </div>
+    
+  </footer>
+
+     
+     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+
+ </div>
+</body>
+</html>
